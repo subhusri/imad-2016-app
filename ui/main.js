@@ -7,10 +7,11 @@ button.onclick = function() {
      if(request.readtState === XMLHttpRequest.DONE) {
          if(request.status ===200) {
              var counter = request.responseText;
-             var span = document.getElementById('count')
+             var span = document.getElementById('count');
              span.innerHTML = counter.toString();
          }
      }
  };
- request.open('GET',http)
+ request.open('GET','http://subhusri.imad.hasura-ap.io/counter',true);
+ request.send(null);
 };
