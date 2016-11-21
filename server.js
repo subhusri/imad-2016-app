@@ -6,8 +6,8 @@ var crypto =require('crypto');
 var bodyParser = require('body-parser');
 
 var config = {
-    user : 'rohitsinghcse',
-    database : 'rohitsinghcse',
+    user : 'subhusri',
+    database : 'subhusri',
     host :'db.imad.hasura-app.io',
     port :'5432',
     password :process.env.DB_PASSWORD 
@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 
 var articles ={
    'article-one'  :{  //object
-    title : 'Article-one Rohit Singh',
+    title : 'Article-one ',
     heading : 'Article-one',
     date :  'Sep 5, 2016',
     content : `
@@ -42,7 +42,7 @@ var articles ={
     </p>`
   },
    'article-two' : {
-     title : 'Article-two Rohit Singh',
+     title : 'Article-two ',
      heading : 'article-two',
      date :  'Sep 15, 2016',
      content : `
@@ -52,7 +52,7 @@ var articles ={
     `
      },
     'article-three' : {
-     title : 'article-three  Rohit Singh',
+     title : 'article-three ',
      heading : 'Article-three',
      date :  'Sep 25, 2016',
      content : `
