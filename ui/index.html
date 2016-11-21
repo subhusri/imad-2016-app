@@ -1,27 +1,48 @@
+
 <html>
     <head>
         <link href="/ui/style.css" rel="stylesheet" />
+        <title>Homepage</title>
     </head>
     <body>
-        <div class="container">
-            <div class="center" >
-                
-                <marquee behavior="scroll" direction="left"><h3>WELCOME !! this is subhusri</h3></marquee>
-                
-                 
+      <div class="container">
+        <div class="center">
+            <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAN-AAAAJDEwZTk4OTBmLWFhYjItNGM5Zi05NmIyLTIwOTM3MzRmMjQzNA.jpg" id="madi" class="img-medium"/>
+        </div>
+          <h3>Personal</h3>
+        <div class="">
+          Hi,I'm Rohit Singh.
+        </div>
+        <hr>
+        <h3>Professional</h3>
+        <div>
+            Currently,I'm working as a developer in TCS.I have completed my B.Tech in Computer Science Engineering.<br>
+            <a href="https://www.linkedin.com/in/rohitsinghcse" target="_blank">Visit Linkedin Profile</a>
+        </div>
+        <hr>
+        <h3>Login</h3>
+        <div>
+            <input type="text" id="username" placeholder="Enter your username" />
+            <input type="password" id="password" placeholder="Enter your password" />
+            <input type="button" value="Login" id="login_btn"/><BR>
+            <a href="/registration.html">Create new account</a>
             
-                <img id='madi' src= http://www.littlestepsasia.com/sites/default/files/article/hero/coding.jpg class="img-medium"/>
-                </div>
-                <hr/>
-                <br>
-                
-                <span style="text-decoration: underline;"><h3>Welcome</h3></span>
-                Welcome to my  website. 
-                </div>
-                <hr/>
-               
-                
-    
-                 
+        </div>
+        <hr>
+        <div class="FOOTER">
+            This button <button id='counter' type="button" >Click me</button> has been clicked <span id='count'> 0 </span> times.<br>
+            <input type="text" id="name" placeholder="name">
+            <input type="submit" id="submit_btn" />
+            
+            <ul id="nameList">
+
+            </ul>
+
+        </div>
+      </div>
+
+        <script type="text/javascript" src="/ui/main.js">
+        </script>
     </body>
 </html>
+
