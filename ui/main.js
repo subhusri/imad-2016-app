@@ -13,7 +13,7 @@ button.onclick =function() {
   };
   //make the request
  // request.open('GET','http://localhost:8080/counter',true);
-  request.open('GET','http://rohitsinghcse.imad.hasura-app.io/counter',true);
+  request.open('GET','http:http://subhusri.imad.hasura-app.io/',true);
   
   request.send(null);
 };
@@ -41,7 +41,7 @@ login.onclick = function () {
   console.log(username);
   console.log(password);
    //make the request
-    request.open('POST','http://rohitsinghcse.imad.hasura-app.io/login');
+    request.open('POST','http://subhusri.imad.hasura-app.io/login');
     request.setRequestHeader('Content-Type','application/json');
     request.send(JSON.stringify({username:username,password:password}));
       
@@ -81,7 +81,7 @@ submit.onclick = function () {
   var nameInput = document.getElementById('name');
   var name = nameInput.value;
  // request.open('GET','http://localhost:8080/submit-name?name='+name,true);
-  request.open('GET','http://rohitsinghcse.imad.hasura-app.io/submit-name?name='+name,true);
+  request.open('GET','http://subhusri.imad.hasura-app.io/submit-name?name='+name,true);
   request.send(null);
  //make a request to the server and send the name
 
